@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Calculator</title>
+    <style>
+      body{
+        text-align: center;
+        background-color:#d4f8e8;
+        font-size:30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <form>
+      Value 1: <input type="text" id="value1"> <br /> <br />
+        Value 2: <input type="text"id="value2" > <br /> <br />
+        operator:<select id="operator">
+          <option value="add" id="add">add</option>
+          <option value="min">Minus</option><br />
+          <option value="div">Divide</option>
+          <option value="mul">Mutiply</option>
+        </select>
+        <br /> <br />
+        <button type="button" onclick="calc()">Calculate</button>
+    </form>
+<br />
+  <div id="result">
+
+  </div>
+  </body>
+  <script src="calculator.js">
+
+  </script>
+</html>
